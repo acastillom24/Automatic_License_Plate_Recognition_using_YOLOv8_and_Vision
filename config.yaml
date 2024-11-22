@@ -1,0 +1,10 @@
+
+input:
+  path_model_vehicles : "files/models/yolov8n.pt"
+  path_model_placas : "files/models/license_plate_detector.pt"
+  path_video : "files/data/input/sample.mp4"
+
+output:
+  path_video_csv : "files/data/output/sample.csv"
+  path_video_interpolated_csv : "files/data/output/video_interpolated.csv"
+  path_video : "files/data/output/sample.mp4"
