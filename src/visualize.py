@@ -81,6 +81,7 @@ def process_video_with_license_plates(video_path: str, results: pd.DataFrame, vi
         while ret:
             ret, frame = cap.read()
             frame_nmr += 1
+            cv2.rectangle(frame, (1460, 0), (2590, 2160), (0, 255, 0), 2)
             if ret:
                 df_ = results[results['frame_nmr'] == frame_nmr]
                 for row_indx in range(len(df_)):

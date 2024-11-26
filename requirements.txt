@@ -10,3 +10,4 @@ tqdm==4.67.0
 ultralytics==8.3.32
 scikit-image==0.24.0
 filterpy==1.4.5
+google-cloud-vision==3.8.1
